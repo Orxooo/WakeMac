@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0-only
-// Copyright (c) 2026 OrxHsu
+// Copyright (c) 2026 Orxooo
 
 import SwiftUI
 import AppKit
@@ -348,7 +348,7 @@ struct PreferencesView: View {
             HStack {
                 WorkNote(text: "退出前会恢复正常休眠。", icon: "power")
                 Spacer()
-                Button("提交问题") { if let url = URL(string: "https://github.com/OrxHsu/WakeMac/issues/new") { NSWorkspace.shared.open(url) } }.workKeyboardFocus(radius: 0)
+                Button("提交问题") { if let url = URL(string: "https://github.com/Orxooo/WakeMac/issues/new") { NSWorkspace.shared.open(url) } }.workKeyboardFocus(radius: 0)
                 Button("退出 WakeMac") { Task { await model.requestQuit() } }.workKeyboardFocus(radius: 0).disabled(model.busy)
             }
             if model.jobRunning { WorkNote(text: "命令仍在运行，退出时会等待任务结束。") }

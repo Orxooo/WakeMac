@@ -1,6 +1,6 @@
 // swift-tools-version: 6.0
 // SPDX-License-Identifier: GPL-3.0-only
-// Copyright (c) 2026 OrxHsu
+// Copyright (c) 2026 Orxooo
 
 import PackageDescription
 let package = Package(name: "WakeMac", platforms: [.macOS(.v15)], products: [

@@ -1,6 +1,6 @@
 #!/bin/zsh
 # SPDX-License-Identifier: GPL-3.0-only
-# Copyright (c) 2026 OrxHsu
+# Copyright (c) 2026 Orxooo
 set -euo pipefail
 PROJECT_DIR="${0:A:h:h}"
 BUILD_DIR="${WAKEMAC_BUILD_DIR:-/tmp/wakemac-build}"

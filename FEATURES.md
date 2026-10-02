@@ -79,4 +79,4 @@ WakeMac 通过原生 macOS 接口管理保持唤醒、合盖工作和自动收�
 - 下载监测只处理用户选择的文件，不读取 Safari 私有元数据；暂停可能达到稳定阈值，重要传输可选择手动结束。
 - Wi-Fi、蓝牙、音频、磁盘及 VPN 等观测依赖系统、权限和设备；不可读取时保留未知状态。
 - GitHub Actions 在 ARM64 macOS 15 与 26 上运行测试和 Release 构建。真实合盖、首次授权、VoiceOver、动效帧率及具体设备行为不能由云端检查推定。
-- 外接设备、可移动磁盘及 Cisco 客户端问题通过 [GitHub Issues](https://github.com/OrxHsu/WakeMac/issues/new/choose) 提交，按具体故障修复。
+- 外接设备、可移动磁盘及 Cisco 客户端问题通过 [GitHub Issues](https://github.com/Orxooo/WakeMac/issues/new/choose) 提交，按具体故障修复。

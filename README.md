@@ -6,12 +6,12 @@
 
 <p><strong>合盖继续工作，完成后自动收尾。</strong></p>
 
-[![Release](https://img.shields.io/github/v/release/OrxHsu/WakeMac?color=002FA7)](https://github.com/OrxHsu/WakeMac/releases/latest)
+[![Release](https://img.shields.io/github/v/release/Orxooo/WakeMac?color=002FA7)](https://github.com/Orxooo/WakeMac/releases/latest)
 [![macOS](https://img.shields.io/badge/macOS-15%2B-555555)](#下载与安装)
-[![CI](https://github.com/OrxHsu/WakeMac/actions/workflows/compatibility.yml/badge.svg)](https://github.com/OrxHsu/WakeMac/actions/workflows/compatibility.yml)
+[![CI](https://github.com/Orxooo/WakeMac/actions/workflows/compatibility.yml/badge.svg)](https://github.com/Orxooo/WakeMac/actions/workflows/compatibility.yml)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-002FA7.svg)](LICENSE)
 
-**[下载应用](https://github.com/OrxHsu/WakeMac/releases/latest)** · **[功能清单](FEATURES.md)** · **[报告问题](https://github.com/OrxHsu/WakeMac/issues/new/choose)**
+**[下载应用](https://github.com/Orxooo/WakeMac/releases/latest)** · **[功能清单](FEATURES.md)** · **[报告问题](https://github.com/Orxooo/WakeMac/issues/new/choose)**
 
 </div>
 
@@ -45,7 +45,7 @@ WakeMac 是一款原生 macOS 菜单栏工具，用来管理保持唤醒、合�
 
 不支持 Intel Mac 或 macOS 14。
 
-1. 从 **[GitHub Releases](https://github.com/OrxHsu/WakeMac/releases/latest)** 下载应用压缩包。
+1. 从 **[GitHub Releases](https://github.com/Orxooo/WakeMac/releases/latest)** 下载应用压缩包。
 2. 解压，将 `WakeMac.app` 移到「应用程序」文件夹，即 `/Applications`。
 3. 打开 WakeMac，通过菜单栏图标使用快捷面板；再次打开应用可显示主窗口。
 4. 如需合盖工作，按下方的[服务启用步骤](#合盖服务与权限)完成一次系统批准。
@@ -140,9 +140,9 @@ end tell
 需要 Apple Silicon Mac、**Xcode 26+（macOS 26 SDK）**和 **Swift 6**。项目使用 SwiftUI、AppKit 和系统接口，没有第三方 Swift 库依赖。
 
 ```sh
-git clone https://github.com/OrxHsu/WakeMac.git
+git clone https://github.com/Orxooo/WakeMac.git
 cd WakeMac
-git checkout v1.0.0
+git checkout V1.0.0
 swift test --scratch-path /tmp/wakemac-test-build
 ./scripts/build-app.sh
 ```
@@ -153,7 +153,7 @@ swift test --scratch-path /tmp/wakemac-test-build
 WAKEMAC_SIGN_IDENTITY='你的证书名称或 SHA-1' ./scripts/build-app.sh
 ```
 
-可用 `WAKEMAC_BUILD_DIR` 和 `WAKEMAC_OUTPUT_DIR` 覆盖构建、输出目录。开发当前分支时可省略 `git checkout v1.0.0`。贡献流程见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+可用 `WAKEMAC_BUILD_DIR` 和 `WAKEMAC_OUTPUT_DIR` 覆盖构建、输出目录。开发当前分支时可省略 `git checkout V1.0.0`。贡献流程见 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
 ## 常见问题
 
@@ -195,7 +195,7 @@ WAKEMAC_SIGN_IDENTITY='你的证书名称或 SHA-1' ./scripts/build-app.sh
 
 ## 反馈与贡献
 
-遇到问题请使用 **[Issue 模板](https://github.com/OrxHsu/WakeMac/issues/new/choose)**，提供 WakeMac 版本、macOS 版本、芯片、复现步骤和预期／实际结果。界面问题可附截图；设备问题请补充设备或客户端型号。
+遇到问题请使用 **[Issue 模板](https://github.com/Orxooo/WakeMac/issues/new/choose)**，提供 WakeMac 版本、macOS 版本、芯片、复现步骤和预期／实际结果。界面问题可附截图；设备问题请补充设备或客户端型号。
 
 GitHub Actions 在 ARM64 macOS 15 与 26 上运行测试和 Release 构建。真实合盖、首次授权与外接设备行为需要实际环境验证，不能由云端构建推定。外接设备、可移动磁盘和 Cisco 客户端的兼容问题按具体 Issue 处理。
 
