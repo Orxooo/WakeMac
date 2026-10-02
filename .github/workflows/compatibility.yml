@@ -3,6 +3,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
+    tags: ['V*']
     paths: ['Sources/**', 'Tests/**', 'Resources/**', 'Assets/**', 'Package.swift', 'Info.plist', 'LICENSE', 'scripts/**', '.github/workflows/**']
   pull_request:
     paths: ['Sources/**', 'Tests/**', 'Resources/**', 'Assets/**', 'Package.swift', 'Info.plist', 'LICENSE', 'scripts/**', '.github/workflows/**']
